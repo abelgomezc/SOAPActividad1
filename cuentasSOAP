@@ -1,0 +1,8 @@
+
+-- nombre de la base de datos : cuentasSOAP
+CREATE TABLE cuentas (
+    id SERIAL PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL,
+    contrasena VARCHAR(50) NOT NULL,
+	saldo numeric NOT NULL
+);
